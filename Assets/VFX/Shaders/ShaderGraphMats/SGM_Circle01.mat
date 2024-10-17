@@ -1,18 +1,5 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-2262553567674957602
-MonoBehaviour:
-  m_ObjectHideFlags: 11
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  version: 7
 --- !u!21 &2100000
 Material:
   serializedVersion: 8
@@ -20,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: SGM_TorusWave
-  m_Shader: {fileID: -6465566751694194690, guid: 519113d6bdc9a1f4aa4ff7b04cc8e3f8,
+  m_Name: SGM_Circle01
+  m_Shader: {fileID: -6465566751694194690, guid: 5b09c8263a575b24b83d4e113dfee2b5,
     type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
@@ -30,7 +17,7 @@ Material:
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
-  m_CustomRenderQueue: 3003
+  m_CustomRenderQueue: -1
   stringTagMap: {}
   disabledShaderPasses: []
   m_LockedProperties: 
@@ -51,18 +38,34 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _Bar_Opacity_Mult: 1
-    - _Bar_Power: 0.01
-    - _Bar_Sine_Time_Mult: 0
-    - _Bar_Smooth_Step_Value: 0.941
-    - _Bar_Velocity_Slider: 0.25
+    - _Circle_Radius: 0.989
+    - _Circle_Radius_Subtract: 0.94
+    - _Color_Sine: 1
     - _Color_Sine_Time_Mult: 2
-    - _Emissive_Color: 1
+    - _Emissive: 2
+    - _Emissive_Sine: 1
+    - _Emissive_Sine_Time_Mult: 1
     - _QueueControl: 0
-    - _QueueOffset: 3
-    - _Use_Bar_Sine: 0
-    - _Use_Color_Sine: 1
+    - _QueueOffset: 0
+    - _Smooth_Step_Power_Main: 0.01
+    - _Smooth_Step_Power_Subtract: 0.04
+    - _Smooth_Step_Subtract: 1
+    - _Step_Smooth_Step: 0
+    - _Step_Subtract: 1
     m_Colors:
     - _Color_01: {r: 0, g: 0.7877617, b: 1, a: 1}
     - _Color_02: {r: 0, g: 1, b: 0.89589477, a: 1}
   m_BuildTextureStacks: []
+--- !u!114 &6146789674748615425
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 7
