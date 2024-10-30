@@ -1957,6 +1957,12 @@
             "m_Id": "6b701ee659c04876b5604f9eb0a5f240"
         },
         {
+            "m_Id": "2d13967dc4024835804bf73e0db1ca2b"
+        },
+        {
+            "m_Id": "7b31f13d58364b279b2c03bc2df4b6e6"
+        },
+        {
             "m_Id": "4acfca18e18a41c381ca947e535c2b13"
         }
     ],
@@ -1972,12 +1978,16 @@
     "m_PropertyGuids": [
         "d87a9ee0-524c-4208-827a-6fa2b3ce0090",
         "46c12e13-88b5-498d-894d-61d15bde97fc",
-        "555c332d-b4a4-4201-8ecc-0269ab5797ac"
+        "555c332d-b4a4-4201-8ecc-0269ab5797ac",
+        "bfb33740-523e-45f1-a842-067e631c3b9a",
+        "59e6ce64-2754-41c7-a4ed-9fd4b4595a38"
     ],
     "m_PropertyIds": [
         -1474463587,
         582628724,
-        -758637396
+        -758637396,
+        511654837,
+        -186360544
     ],
     "m_Dropdowns": [],
     "m_DropdownSelectedEntries": []
@@ -2978,6 +2988,20 @@
         "m_SerializableColors": []
     },
     "m_SerializedDescriptor": "SurfaceDescription.BaseColor"
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.BooleanMaterialSlot",
+    "m_ObjectId": "2d13967dc4024835804bf73e0db1ca2b",
+    "m_Id": 511654837,
+    "m_DisplayName": "General Cosine Disp",
+    "m_SlotType": 0,
+    "m_Hidden": false,
+    "m_ShaderOutputName": "_General_Cosine_Disp",
+    "m_StageCapability": 3,
+    "m_Value": false,
+    "m_DefaultValue": false
 }
 
 {
@@ -5013,6 +5037,21 @@
     "m_StageCapability": 3,
     "m_Value": true,
     "m_DefaultValue": false
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
+    "m_ObjectId": "7b31f13d58364b279b2c03bc2df4b6e6",
+    "m_Id": -186360544,
+    "m_DisplayName": "Cosine Disp",
+    "m_SlotType": 0,
+    "m_Hidden": false,
+    "m_ShaderOutputName": "_Cosine_Disp",
+    "m_StageCapability": 3,
+    "m_Value": 0.0,
+    "m_DefaultValue": 0.0,
+    "m_Labels": []
 }
 
 {

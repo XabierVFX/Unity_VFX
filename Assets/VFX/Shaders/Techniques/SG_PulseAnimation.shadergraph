@@ -452,8 +452,8 @@
     },
     "m_FragmentContext": {
         "m_Position": {
-            "x": 0.0,
-            "y": 200.0
+            "x": 804.0,
+            "y": -73.00005340576172
         },
         "m_Blocks": [
             {
@@ -855,10 +855,10 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -557.0,
-            "y": 85.0,
-            "width": 0.0,
-            "height": 0.0
+            "x": 247.0000457763672,
+            "y": -188.0000457763672,
+            "width": 121.00001525878906,
+            "height": 34.000030517578128
         }
     },
     "m_Slots": [
@@ -1462,9 +1462,9 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -458.0,
-            "y": -417.0000305175781,
-            "width": 128.0,
+            "x": -155.9999542236328,
+            "y": -706.0,
+            "width": 128.00003051757813,
             "height": 125.0
         }
     },
@@ -1892,6 +1892,21 @@
         "z": 0.0,
         "w": 0.0
     }
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
+    "m_ObjectId": "7013f2a1bd264b86a044584cadb96ff0",
+    "m_Id": -1546641378,
+    "m_DisplayName": "Sine Disp",
+    "m_SlotType": 0,
+    "m_Hidden": false,
+    "m_ShaderOutputName": "_Sine_Disp",
+    "m_StageCapability": 3,
+    "m_Value": 0.0,
+    "m_DefaultValue": 0.0,
+    "m_Labels": []
 }
 
 {
@@ -2838,10 +2853,10 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -369.0,
-            "y": 20.0,
-            "width": 208.0,
-            "height": 303.0
+            "x": 434.99993896484377,
+            "y": -253.0,
+            "width": 208.0001220703125,
+            "height": 302.99993896484377
         }
     },
     "m_Slots": [
@@ -3150,10 +3165,10 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -499.0,
-            "y": -4.0,
-            "width": 0.0,
-            "height": 0.0
+            "x": 305.0000305175781,
+            "y": -277.0,
+            "width": 104.99996948242188,
+            "height": 34.00001525878906
         }
     },
     "m_Slots": [
@@ -3172,6 +3187,20 @@
     "m_Property": {
         "m_Id": "f761077ec1d349618474a6046773784d"
     }
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.BooleanMaterialSlot",
+    "m_ObjectId": "e24d9acf65384d87afe7485e6d9de13b",
+    "m_Id": -532540130,
+    "m_DisplayName": "General Sine Disp",
+    "m_SlotType": 0,
+    "m_Hidden": false,
+    "m_ShaderOutputName": "_General_Sine_Disp",
+    "m_StageCapability": 3,
+    "m_Value": false,
+    "m_DefaultValue": false
 }
 
 {
@@ -3522,10 +3551,10 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -846.0,
-            "y": -417.0000305175781,
-            "width": 208.0,
-            "height": 327.0
+            "x": -543.9999389648438,
+            "y": -706.0,
+            "width": 216.99984741210938,
+            "height": 375.0000305175781
         }
     },
     "m_Slots": [
@@ -3537,6 +3566,12 @@
         },
         {
             "m_Id": "427fc1f69c944176bf73e24ffe44a9d8"
+        },
+        {
+            "m_Id": "e24d9acf65384d87afe7485e6d9de13b"
+        },
+        {
+            "m_Id": "7013f2a1bd264b86a044584cadb96ff0"
         },
         {
             "m_Id": "648a169d6739440685d71250be8acb00"
@@ -3554,12 +3589,16 @@
     "m_PropertyGuids": [
         "c7f0e93c-c62b-4267-b030-cc70b6283596",
         "3a72a9a0-470c-49cf-b304-f48bdbd5bd1b",
-        "7b46e804-e991-4b7b-845f-42b05f2348a0"
+        "7b46e804-e991-4b7b-845f-42b05f2348a0",
+        "5aae3423-bad8-408c-a657-009d43cc6067",
+        "02b4954e-5d52-42dc-81ef-1e178307a6f4"
     ],
     "m_PropertyIds": [
         1668167441,
         -470532156,
-        540507470
+        540507470,
+        -532540130,
+        -1546641378
     ],
     "m_Dropdowns": [],
     "m_DropdownSelectedEntries": []
