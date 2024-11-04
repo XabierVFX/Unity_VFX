@@ -7332,6 +7332,12 @@
             "m_Id": "b4d93545683f48f9ac293d8fa72152da"
         },
         {
+            "m_Id": "fdede9c366da4536a04500ee3cbdbbbe"
+        },
+        {
+            "m_Id": "d5086489a72f4b41b9e6850770fcea63"
+        },
+        {
             "m_Id": "95cc8ee9f4c441609d017e4a069bf888"
         }
     ],
@@ -7351,7 +7357,9 @@
         "cd1e5b59-2747-47d1-96ed-cabd235144bf",
         "598e2dcb-6713-4113-b4b3-f1905d4cfeb7",
         "0b7c797f-0311-45a5-9812-30a1bfed6a63",
-        "e2d22407-ec84-4cc6-b1ef-ed0dc9b69220"
+        "e2d22407-ec84-4cc6-b1ef-ed0dc9b69220",
+        "a2bff8c3-8206-4f1a-be34-d4d3bac10f01",
+        "c6231e29-e0c7-4107-a8d9-4d2d2b63704c"
     ],
     "m_PropertyIds": [
         -1275685435,
@@ -7360,7 +7368,9 @@
         -2008956757,
         1066579249,
         -1937537719,
-        -2090102277
+        -2090102277,
+        1065258945,
+        -434551699
     ],
     "m_Dropdowns": [],
     "m_DropdownSelectedEntries": []
@@ -10488,6 +10498,21 @@
 
 {
     "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
+    "m_ObjectId": "d5086489a72f4b41b9e6850770fcea63",
+    "m_Id": -434551699,
+    "m_DisplayName": "Rotation Offset",
+    "m_SlotType": 0,
+    "m_Hidden": false,
+    "m_ShaderOutputName": "_Rotation_Offset",
+    "m_StageCapability": 3,
+    "m_Value": 1.5700000524520875,
+    "m_DefaultValue": 0.0,
+    "m_Labels": []
+}
+
+{
+    "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.DynamicVectorMaterialSlot",
     "m_ObjectId": "d51cdd49a0cb4eeda33b0eac181cd491",
     "m_Id": 1,
@@ -12124,6 +12149,20 @@
     "m_CustomColors": {
         "m_SerializableColors": []
     }
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.BooleanMaterialSlot",
+    "m_ObjectId": "fdede9c366da4536a04500ee3cbdbbbe",
+    "m_Id": 1065258945,
+    "m_DisplayName": "Add Rotation Offset",
+    "m_SlotType": 0,
+    "m_Hidden": false,
+    "m_ShaderOutputName": "_Add_Rotation_Offset",
+    "m_StageCapability": 3,
+    "m_Value": false,
+    "m_DefaultValue": false
 }
 
 {
