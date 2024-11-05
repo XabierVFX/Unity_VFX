@@ -7,10 +7,10 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: SGM_CircleAnim01 Variant
-  m_Shader: {fileID: -6465566751694194690, guid: 5b09c8263a575b24b83d4e113dfee2b5,
+  m_Name: SGM_Fresnel
+  m_Shader: {fileID: -6465566751694194690, guid: 536e5e0211b38bb45a4218ef340dfab7,
     type: 3}
-  m_Parent: {fileID: 2100000, guid: d956d3dfd975f6945844cd37eb11970a, type: 2}
+  m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
   m_InvalidKeywords: []
@@ -23,19 +23,26 @@ Material:
   m_LockedProperties: 
   m_SavedProperties:
     serializedVersion: 3
-    m_TexEnvs: []
+    m_TexEnvs:
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _Circle_Radius: 0.5
-    - _Circle_Radius_Anim: 0
-    - _Circle_Radius_Subtract: 0.263
-    - _Circle_Radius_Subtract_Anim_Intensity: 0.1
-    - _Circle_Radius_Subtract_Anim_Sine_Disp: 0.175
-    - _Color_Sine: 1
-    - _Step_Subtract: 1
+    - _QueueControl: 0
+    - _QueueOffset: 0
     m_Colors: []
   m_BuildTextureStacks: []
---- !u!114 &1002292327546048059
+--- !u!114 &268057154150389235
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
