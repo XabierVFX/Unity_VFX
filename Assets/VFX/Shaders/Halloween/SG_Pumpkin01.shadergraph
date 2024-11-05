@@ -1686,6 +1686,12 @@
             "m_Id": "80ee7d6afab64dbf8084ce7da01d8371"
         },
         {
+            "m_Id": "f5046708ede84386923f556b13951e8b"
+        },
+        {
+            "m_Id": "baba69f0d85c47a3b48c2ff92b550ba8"
+        },
+        {
             "m_Id": "02ba79618bf44f55a2f2659d596f6234"
         }
     ],
@@ -1705,7 +1711,9 @@
         "822e1b56-e1d4-45ad-8a49-48582c877c51",
         "f403230c-fa5a-46ba-84e0-88b02e0aba5e",
         "765d0af4-4214-46ca-88e9-41c56f164864",
-        "650abff9-3af4-4f9e-ae7d-14bb4817cbea"
+        "650abff9-3af4-4f9e-ae7d-14bb4817cbea",
+        "a7933031-5e84-42d8-b253-354f2e3908a4",
+        "78608ade-c917-4f93-9d0b-30c33d27024c"
     ],
     "m_PropertyIds": [
         -145944731,
@@ -1714,7 +1722,9 @@
         -826854364,
         1552626684,
         -1851869433,
-        2068574187
+        2068574187,
+        242615337,
+        -1195282583
     ],
     "m_Dropdowns": [],
     "m_DropdownSelectedEntries": []
@@ -6295,6 +6305,20 @@
 
 {
     "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.BooleanMaterialSlot",
+    "m_ObjectId": "78728ca784fb431e87f217d10ba73e9e",
+    "m_Id": 1888182381,
+    "m_DisplayName": "Add Rotation Offset",
+    "m_SlotType": 0,
+    "m_Hidden": false,
+    "m_ShaderOutputName": "_Add_Rotation_Offset",
+    "m_StageCapability": 3,
+    "m_Value": false,
+    "m_DefaultValue": false
+}
+
+{
+    "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.UVMaterialSlot",
     "m_ObjectId": "7875a2886a214c9781c32d6ebb84a4cc",
     "m_Id": 2,
@@ -9020,6 +9044,12 @@
             "m_Id": "4db784aec5ca46b0a5f6f813e7e58541"
         },
         {
+            "m_Id": "78728ca784fb431e87f217d10ba73e9e"
+        },
+        {
+            "m_Id": "f0a32dd68e4d480798c668fef80b6cf2"
+        },
+        {
             "m_Id": "74279f9aff804423a14a8804176b3deb"
         }
     ],
@@ -9039,7 +9069,9 @@
         "9f426dc5-4826-4741-87d7-29c242645f3c",
         "50648873-2842-4289-9e1f-aa07b4660802",
         "7e3fbafa-0e2a-4d0c-9a33-b2aeeea53cd1",
-        "13ad7f7b-eed7-4dc9-ab70-9479805b4491"
+        "13ad7f7b-eed7-4dc9-ab70-9479805b4491",
+        "82945228-f41e-439a-a0bd-e8b1fb7b6d00",
+        "577b17b7-9a83-448e-ae7a-6eb6bf183690"
     ],
     "m_PropertyIds": [
         -988834282,
@@ -9048,7 +9080,9 @@
         645240358,
         391108891,
         1287463588,
-        -1229669753
+        -1229669753,
+        1888182381,
+        900591397
     ],
     "m_Dropdowns": [],
     "m_DropdownSelectedEntries": []
@@ -9388,6 +9422,21 @@
     "m_CustomColors": {
         "m_SerializableColors": []
     }
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
+    "m_ObjectId": "baba69f0d85c47a3b48c2ff92b550ba8",
+    "m_Id": -1195282583,
+    "m_DisplayName": "Rotation Offset",
+    "m_SlotType": 0,
+    "m_Hidden": false,
+    "m_ShaderOutputName": "_Rotation_Offset",
+    "m_StageCapability": 3,
+    "m_Value": 1.5700000524520875,
+    "m_DefaultValue": 0.0,
+    "m_Labels": []
 }
 
 {
@@ -11610,6 +11659,21 @@
 
 {
     "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
+    "m_ObjectId": "f0a32dd68e4d480798c668fef80b6cf2",
+    "m_Id": 900591397,
+    "m_DisplayName": "Rotation Offset",
+    "m_SlotType": 0,
+    "m_Hidden": false,
+    "m_ShaderOutputName": "_Rotation_Offset",
+    "m_StageCapability": 3,
+    "m_Value": 1.5700000524520875,
+    "m_DefaultValue": 0.0,
+    "m_Labels": []
+}
+
+{
+    "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.PropertyNode",
     "m_ObjectId": "f1da89f1910a49919f79466402983cdf",
     "m_Group": {
@@ -11731,6 +11795,20 @@
     "m_Value": 2.0,
     "m_DefaultValue": 0.0,
     "m_Labels": []
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.BooleanMaterialSlot",
+    "m_ObjectId": "f5046708ede84386923f556b13951e8b",
+    "m_Id": 242615337,
+    "m_DisplayName": "Add Rotation Offset",
+    "m_SlotType": 0,
+    "m_Hidden": false,
+    "m_ShaderOutputName": "_Add_Rotation_Offset",
+    "m_StageCapability": 3,
+    "m_Value": false,
+    "m_DefaultValue": false
 }
 
 {
