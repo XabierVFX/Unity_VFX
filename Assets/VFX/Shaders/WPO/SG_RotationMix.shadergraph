@@ -1518,6 +1518,20 @@
 
 {
     "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.BooleanMaterialSlot",
+    "m_ObjectId": "1d69c00e0f10439e860cf61458e2d7f8",
+    "m_Id": 242615337,
+    "m_DisplayName": "Add Rotation Offset",
+    "m_SlotType": 0,
+    "m_Hidden": false,
+    "m_ShaderOutputName": "_Add_Rotation_Offset",
+    "m_StageCapability": 3,
+    "m_Value": false,
+    "m_DefaultValue": false
+}
+
+{
+    "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.DynamicVectorMaterialSlot",
     "m_ObjectId": "1ee6119ec87b4c25b7b4d383196d28c6",
     "m_Id": 0,
@@ -2058,6 +2072,12 @@
             "m_Id": "44e49668eef94d1ba5d033ff16c8e1eb"
         },
         {
+            "m_Id": "1d69c00e0f10439e860cf61458e2d7f8"
+        },
+        {
+            "m_Id": "9547b23b5fae4b9cb76628a2260cd9c7"
+        },
+        {
             "m_Id": "e17048ef7713425bbc6ec0c07c77684d"
         }
     ],
@@ -2077,7 +2097,9 @@
         "822e1b56-e1d4-45ad-8a49-48582c877c51",
         "f403230c-fa5a-46ba-84e0-88b02e0aba5e",
         "765d0af4-4214-46ca-88e9-41c56f164864",
-        "650abff9-3af4-4f9e-ae7d-14bb4817cbea"
+        "650abff9-3af4-4f9e-ae7d-14bb4817cbea",
+        "a7933031-5e84-42d8-b253-354f2e3908a4",
+        "78608ade-c917-4f93-9d0b-30c33d27024c"
     ],
     "m_PropertyIds": [
         -145944731,
@@ -2086,7 +2108,9 @@
         -826854364,
         1552626684,
         -1851869433,
-        2068574187
+        2068574187,
+        242615337,
+        -1195282583
     ],
     "m_Dropdowns": [],
     "m_DropdownSelectedEntries": []
@@ -2536,6 +2560,21 @@
         "y": 0.0,
         "z": 0.0
     },
+    "m_Labels": []
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
+    "m_ObjectId": "41fce066b62c440b8969191e663ba4aa",
+    "m_Id": 900591397,
+    "m_DisplayName": "Rotation Offset",
+    "m_SlotType": 0,
+    "m_Hidden": false,
+    "m_ShaderOutputName": "_Rotation_Offset",
+    "m_StageCapability": 3,
+    "m_Value": 1.5700000524520875,
+    "m_DefaultValue": 0.0,
     "m_Labels": []
 }
 
@@ -4140,6 +4179,20 @@
 
 {
     "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.BooleanMaterialSlot",
+    "m_ObjectId": "8651af45ac3b4428a6b76ba091cd8abe",
+    "m_Id": 1888182381,
+    "m_DisplayName": "Add Rotation Offset",
+    "m_SlotType": 0,
+    "m_Hidden": false,
+    "m_ShaderOutputName": "_Add_Rotation_Offset",
+    "m_StageCapability": 3,
+    "m_Value": false,
+    "m_DefaultValue": false
+}
+
+{
+    "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.DynamicVectorMaterialSlot",
     "m_ObjectId": "86b68fe7346744fa84afaecf1139fedf",
     "m_Id": 0,
@@ -4388,6 +4441,35 @@
 
 {
     "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.BooleanMaterialSlot",
+    "m_ObjectId": "931c7c3cba6f4c44a5d24468a79d0126",
+    "m_Id": 1065258945,
+    "m_DisplayName": "Add Rotation Offset",
+    "m_SlotType": 0,
+    "m_Hidden": false,
+    "m_ShaderOutputName": "_Add_Rotation_Offset",
+    "m_StageCapability": 3,
+    "m_Value": false,
+    "m_DefaultValue": false
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
+    "m_ObjectId": "9547b23b5fae4b9cb76628a2260cd9c7",
+    "m_Id": -1195282583,
+    "m_DisplayName": "Rotation Offset",
+    "m_SlotType": 0,
+    "m_Hidden": false,
+    "m_ShaderOutputName": "_Rotation_Offset",
+    "m_StageCapability": 3,
+    "m_Value": 1.5700000524520875,
+    "m_DefaultValue": 0.0,
+    "m_Labels": []
+}
+
+{
+    "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
     "m_ObjectId": "95d314a22bb644ddbb31905082399391",
     "m_Id": 0,
@@ -4629,6 +4711,12 @@
             "m_Id": "4b0bfc1da3d64ad5afeb3078fd40f66d"
         },
         {
+            "m_Id": "931c7c3cba6f4c44a5d24468a79d0126"
+        },
+        {
+            "m_Id": "ca071c58a26f47cba1e63f3bc56af111"
+        },
+        {
             "m_Id": "2eb07ca026384a67a392bf26e9d1bf6c"
         }
     ],
@@ -4648,7 +4736,9 @@
         "cd1e5b59-2747-47d1-96ed-cabd235144bf",
         "598e2dcb-6713-4113-b4b3-f1905d4cfeb7",
         "0b7c797f-0311-45a5-9812-30a1bfed6a63",
-        "e2d22407-ec84-4cc6-b1ef-ed0dc9b69220"
+        "e2d22407-ec84-4cc6-b1ef-ed0dc9b69220",
+        "a2bff8c3-8206-4f1a-be34-d4d3bac10f01",
+        "c6231e29-e0c7-4107-a8d9-4d2d2b63704c"
     ],
     "m_PropertyIds": [
         -1275685435,
@@ -4657,7 +4747,9 @@
         -2008956757,
         1066579249,
         -1937537719,
-        -2090102277
+        -2090102277,
+        1065258945,
+        -434551699
     ],
     "m_Dropdowns": [],
     "m_DropdownSelectedEntries": []
@@ -5078,6 +5170,12 @@
             "m_Id": "d1a2839356934dcfabe6202fb27c77f0"
         },
         {
+            "m_Id": "8651af45ac3b4428a6b76ba091cd8abe"
+        },
+        {
+            "m_Id": "41fce066b62c440b8969191e663ba4aa"
+        },
+        {
             "m_Id": "41bde34814e040c1b2771e0b3a4dcbc0"
         }
     ],
@@ -5097,7 +5195,9 @@
         "9f426dc5-4826-4741-87d7-29c242645f3c",
         "50648873-2842-4289-9e1f-aa07b4660802",
         "7e3fbafa-0e2a-4d0c-9a33-b2aeeea53cd1",
-        "13ad7f7b-eed7-4dc9-ab70-9479805b4491"
+        "13ad7f7b-eed7-4dc9-ab70-9479805b4491",
+        "82945228-f41e-439a-a0bd-e8b1fb7b6d00",
+        "577b17b7-9a83-448e-ae7a-6eb6bf183690"
     ],
     "m_PropertyIds": [
         -988834282,
@@ -5106,7 +5206,9 @@
         645240358,
         391108891,
         1287463588,
-        -1229669753
+        -1229669753,
+        1888182381,
+        900591397
     ],
     "m_Dropdowns": [],
     "m_DropdownSelectedEntries": []
@@ -5308,6 +5410,21 @@
         "z": 0.0,
         "w": 0.0
     }
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
+    "m_ObjectId": "ca071c58a26f47cba1e63f3bc56af111",
+    "m_Id": -434551699,
+    "m_DisplayName": "Rotation Offset",
+    "m_SlotType": 0,
+    "m_Hidden": false,
+    "m_ShaderOutputName": "_Rotation_Offset",
+    "m_StageCapability": 3,
+    "m_Value": 1.5700000524520875,
+    "m_DefaultValue": 0.0,
+    "m_Labels": []
 }
 
 {

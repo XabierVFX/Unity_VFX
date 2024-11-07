@@ -40,17 +40,24 @@ Material:
     m_Floats:
     - _Add_H_Sine: 1
     - _Add_Instance_Variation_H: 1
+    - _Add_Rotation: 0
     - _Add_V_Sine: 0
     - _H_Sine_Intensity: 0.05
     - _H_Sine_Time_Mult: 2
     - _QueueControl: 0
     - _QueueOffset: 0
+    - _Rotation_Sine_Intensity: 0
+    - _Rotation_Sine_Rotation_Time: 1
+    - _Rotation_Sine_Time_Mult: 0
+    - _Rotation_Time_Mult: 1
     - _Shape_H: 0.346
     - _Shape_V: 0.25
     - _V_Sine_Intensity: 0
     - _V_Sine_Time_Mult: 1
     m_Colors:
     - _Color: {r: 0, g: 1, b: 0.9388053, a: 0}
+    - _Color_01: {r: 0, g: 1, b: 0.9388053, a: 0}
+    - _Color_02: {r: 0, g: 0.8962696, b: 0.5520116, a: 1}
   m_BuildTextureStacks: []
 --- !u!114 &2523962523995909530
 MonoBehaviour:
