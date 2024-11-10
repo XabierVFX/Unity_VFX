@@ -1,0 +1,90 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-6505418852101460282
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 7
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: SGM_CairoRiver
+  m_Shader: {fileID: -6465566751694194690, guid: b19c59e945ac3bc4b83576f0ad6091ac,
+    type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 2
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _SampleTexture2D_679308bf50c641c7b52615fa22a9776e_Texture_1_Texture2D:
+        m_Texture: {fileID: 2800000, guid: 742f0f47772945d4db8e483507cfb12d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_7314e0a0c0da486d8902830b1d7aab17_Texture_1_Texture2D:
+        m_Texture: {fileID: 2800000, guid: 8cbca61be0046fa4c9362baeec35f2c2, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_a69fb6cec09147cc969464a2a8801c22_Texture_1_Texture2D:
+        m_Texture: {fileID: 2800000, guid: 9bd29b0bd92a682429a27dfd373bef78, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _Alpha: 0.773
+    - _Emissive: 0.1
+    - _Extra_Opacity: 0.397
+    - _Float: 1
+    - _General_Normal_Mult: 0.622
+    - _Influence_01: 0.426
+    - _Influence_02: 0.554
+    - _Influence_03: 0.471
+    - _Mult_Slider: 11.9
+    - _Power_Slider: 1.38
+    - _QueueControl: 0
+    - _QueueOffset: 0
+    - _Smoothness: 1
+    - _WPO: 0.2
+    m_Colors:
+    - _Color: {r: 0.7311321, g: 0.80283016, b: 1, a: 0}
+    - _Color_01: {r: 0.3443396, g: 0.6324329, b: 1, a: 1}
+    - _Color_02: {r: 0.29013884, g: 0.29203495, b: 0.3773585, a: 0}
+    - _Tile_01: {r: 1.7, g: 1.55, b: 0, a: 0}
+    - _Tile_02: {r: 1.9, g: 0.62, b: 0, a: 0}
+    - _Tile_03: {r: 2.2, g: 1, b: 0, a: 0}
+    - _Vel_01: {r: 0.04, g: 0.06, b: 0, a: 0}
+    - _Vel_02: {r: -0.03, g: 0.02, b: 0, a: 0}
+    - _Vel_03: {r: 0.01, g: 0.035, b: 0, a: 0}
+  m_BuildTextureStacks: []
