@@ -1510,6 +1510,12 @@
             "m_Id": "60b4365ea1ef4785be995c0dd16c2454"
         },
         {
+            "m_Id": "c8db8a82701d4a2f9acda5f413938c08"
+        },
+        {
+            "m_Id": "25870bbfb8f341f691392a7e96c4c2f8"
+        },
+        {
             "m_Id": "ea090f9c89184038af73d02d7e02630f"
         }
     ],
@@ -1529,7 +1535,9 @@
         "822e1b56-e1d4-45ad-8a49-48582c877c51",
         "f403230c-fa5a-46ba-84e0-88b02e0aba5e",
         "765d0af4-4214-46ca-88e9-41c56f164864",
-        "650abff9-3af4-4f9e-ae7d-14bb4817cbea"
+        "650abff9-3af4-4f9e-ae7d-14bb4817cbea",
+        "a7933031-5e84-42d8-b253-354f2e3908a4",
+        "78608ade-c917-4f93-9d0b-30c33d27024c"
     ],
     "m_PropertyIds": [
         -145944731,
@@ -1538,7 +1546,9 @@
         -826854364,
         1552626684,
         -1851869433,
-        2068574187
+        2068574187,
+        242615337,
+        -1195282583
     ],
     "m_Dropdowns": [],
     "m_DropdownSelectedEntries": []
@@ -2306,6 +2316,21 @@
     },
     "m_Width": 208.0,
     "m_Height": 208.0
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
+    "m_ObjectId": "25870bbfb8f341f691392a7e96c4c2f8",
+    "m_Id": -1195282583,
+    "m_DisplayName": "Rotation Offset",
+    "m_SlotType": 0,
+    "m_Hidden": false,
+    "m_ShaderOutputName": "_Rotation_Offset",
+    "m_StageCapability": 3,
+    "m_Value": 1.5700000524520875,
+    "m_DefaultValue": 0.0,
+    "m_Labels": []
 }
 
 {
@@ -3692,6 +3717,12 @@
             "m_Id": "0010d49586b848cdaf9c4237bbb1d484"
         },
         {
+            "m_Id": "5ea5dcea495c4bf38478738c47556b20"
+        },
+        {
+            "m_Id": "7f53410594504bf98f385df046f4b072"
+        },
+        {
             "m_Id": "06ec8f372ed74279b7d02505f2149329"
         }
     ],
@@ -3711,7 +3742,9 @@
         "9f426dc5-4826-4741-87d7-29c242645f3c",
         "50648873-2842-4289-9e1f-aa07b4660802",
         "7e3fbafa-0e2a-4d0c-9a33-b2aeeea53cd1",
-        "13ad7f7b-eed7-4dc9-ab70-9479805b4491"
+        "13ad7f7b-eed7-4dc9-ab70-9479805b4491",
+        "82945228-f41e-439a-a0bd-e8b1fb7b6d00",
+        "577b17b7-9a83-448e-ae7a-6eb6bf183690"
     ],
     "m_PropertyIds": [
         -988834282,
@@ -3720,10 +3753,26 @@
         645240358,
         391108891,
         1287463588,
-        -1229669753
+        -1229669753,
+        1888182381,
+        900591397
     ],
     "m_Dropdowns": [],
     "m_DropdownSelectedEntries": []
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.BooleanMaterialSlot",
+    "m_ObjectId": "5ea5dcea495c4bf38478738c47556b20",
+    "m_Id": 1888182381,
+    "m_DisplayName": "Add Rotation Offset",
+    "m_SlotType": 0,
+    "m_Hidden": false,
+    "m_ShaderOutputName": "_Add_Rotation_Offset",
+    "m_StageCapability": 3,
+    "m_Value": false,
+    "m_DefaultValue": false
 }
 
 {
@@ -4554,6 +4603,21 @@
         "z": 0.0,
         "w": 0.0
     }
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
+    "m_ObjectId": "7f53410594504bf98f385df046f4b072",
+    "m_Id": 900591397,
+    "m_DisplayName": "Rotation Offset",
+    "m_SlotType": 0,
+    "m_Hidden": false,
+    "m_ShaderOutputName": "_Rotation_Offset",
+    "m_StageCapability": 3,
+    "m_Value": 1.5700000524520875,
+    "m_DefaultValue": 0.0,
+    "m_Labels": []
 }
 
 {
@@ -6570,6 +6634,20 @@
     "m_ShaderOutputName": "_Positive_Remap",
     "m_StageCapability": 3,
     "m_Value": true,
+    "m_DefaultValue": false
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.BooleanMaterialSlot",
+    "m_ObjectId": "c8db8a82701d4a2f9acda5f413938c08",
+    "m_Id": 242615337,
+    "m_DisplayName": "Add Rotation Offset",
+    "m_SlotType": 0,
+    "m_Hidden": false,
+    "m_ShaderOutputName": "_Add_Rotation_Offset",
+    "m_StageCapability": 3,
+    "m_Value": false,
     "m_DefaultValue": false
 }
 
