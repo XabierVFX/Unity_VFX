@@ -24,7 +24,15 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
-    - _SampleTexture2D_5ffef299efb84403a96e5f794697649d_Texture_1_Texture2D:
+    - _Texture_Contrast:
+        m_Texture: {fileID: 2800000, guid: b4167f6c1b0219b4089d2cc79b523cbe, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Texture_Core:
+        m_Texture: {fileID: 2800000, guid: a188701a910063f4fb627ff7b1abc874, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Texture_Tail:
         m_Texture: {fileID: 2800000, guid: 166a83daa001a754ab03c23e0ff2b4f8, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
@@ -42,11 +50,26 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
+    - _Intensity_Contrast: 1
+    - _Intensity_Core: 5.56
+    - _Intensity_Tail: 1
+    - _Power_Contrast: 1.79
+    - _Power_Core: 6
+    - _Power_Tail: 1.3
     - _QueueControl: 0
     - _QueueOffset: 0
+    - _Tile_X_Contrast: 1
+    - _Tile_X_Core: 0.8
+    - _Tile_X_Tail: 0.83
+    - _Tile_Y_Contrast: 0.53
+    - _Tile_Y_Core: 0.46
+    - _Tile_Y_Tail: -0.19
+    - _Velocity_Contrast: 0.9
+    - _Velocity_Core: 0.63
+    - _Velocity_Tail: 1.06
     m_Colors:
-    - _Color: {r: 0.0235849, g: 1, b: 0.5261515, a: 1}
-    - _Color_1: {r: 0.2588235, g: 0.5019608, b: 0.3882353, a: 1}
+    - _Color_Black: {r: 0.1882353, g: 0.48235294, b: 0.34509805, a: 1}
+    - _Color_White: {r: 0.023584902, g: 1, b: 0.52615154, a: 1}
   m_BuildTextureStacks: []
 --- !u!114 &5255297606577141035
 MonoBehaviour:
