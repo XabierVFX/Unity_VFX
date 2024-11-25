@@ -1,0 +1,79 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: SGM_Circle02
+  m_Shader: {fileID: -6465566751694194690, guid: 5b09c8263a575b24b83d4e113dfee2b5,
+    type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: 3002
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _Circle_Radius: 0.961
+    - _Circle_Radius_Anim: 0
+    - _Circle_Radius_Anim_Sine_Disp: 0
+    - _Circle_Radius_Anim_Sine_Intensity: 1
+    - _Circle_Radius_Anim_Sine_Time_Mult: 3.14
+    - _Circle_Radius_Subtract: 0.909
+    - _Circle_Radius_Subtract_Anim: 0
+    - _Circle_Radius_Subtract_Anim_Intensity: 0.5
+    - _Circle_Radius_Subtract_Anim_Sine_Disp: 0
+    - _Circle_Radius_Subtract_Anim_Time_Mult: 3.14
+    - _Color_Sine: 1
+    - _Color_Sine_Time_Mult: 1.57
+    - _Emissive: 0.1
+    - _Emissive_Sine: 1
+    - _Emissive_Sine_Time_Mult: 1.57
+    - _QueueControl: 0
+    - _QueueOffset: 2
+    - _Smooth_Step_Power_Main: 0.01
+    - _Smooth_Step_Power_Subtract: 0.04
+    - _Smooth_Step_Subtract: 1
+    - _Step_Smooth_Step: 0
+    - _Step_Subtract: 1
+    m_Colors:
+    - _Color_01: {r: 0, g: 1, b: 0.8666667, a: 1}
+    - _Color_02: {r: 0.21960784, g: 1, b: 0.5411765, a: 1}
+  m_BuildTextureStacks: []
+--- !u!114 &6146789674748615425
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 7
