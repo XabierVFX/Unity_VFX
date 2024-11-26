@@ -50,9 +50,11 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _Intensity_Contrast: 1
-    - _Intensity_Core: 5.56
-    - _Intensity_Tail: 1
+    - _Color_Mult: 1
+    - _Color_Power: 1
+    - _Intensity_Contrast: 1.03
+    - _Intensity_Core: 9.12
+    - _Intensity_Tail: 0.37
     - _Power_Contrast: 1.79
     - _Power_Core: 6
     - _Power_Tail: 1.3
@@ -61,15 +63,16 @@ Material:
     - _Tile_X_Contrast: 1
     - _Tile_X_Core: 0.8
     - _Tile_X_Tail: 0.83
-    - _Tile_Y_Contrast: 0.53
-    - _Tile_Y_Core: 0.46
-    - _Tile_Y_Tail: -0.19
+    - _Tile_Y_Contrast: 0
+    - _Tile_Y_Core: 0.454
+    - _Tile_Y_Tail: -0.857
     - _Velocity_Contrast: 0.9
     - _Velocity_Core: 0.63
     - _Velocity_Tail: 1.06
     m_Colors:
     - _Color_Black: {r: 0.1882353, g: 0.48235294, b: 0.34509805, a: 1}
     - _Color_White: {r: 0.023584902, g: 1, b: 0.52615154, a: 1}
+    - _Gradient_Disp: {r: 0, g: 0, b: 0, a: 0}
   m_BuildTextureStacks: []
 --- !u!114 &5255297606577141035
 MonoBehaviour:
