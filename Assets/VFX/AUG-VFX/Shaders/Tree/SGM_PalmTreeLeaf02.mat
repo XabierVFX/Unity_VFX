@@ -37,12 +37,12 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
-    - _Noise_Texture:
-        m_Texture: {fileID: 2800000, guid: f52ba8adbab24ba4cbdee7ae136dc36c, type: 3}
+    - _Leaf_Texture:
+        m_Texture: {fileID: 2800000, guid: 5c2e4b3700ba1f04f945b63c7c5bf7e9, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - _SampleTexture2D_70c0034f460c4d6684f714deff0415b5_Texture_1_Texture2D:
-        m_Texture: {fileID: 2800000, guid: 5c2e4b3700ba1f04f945b63c7c5bf7e9, type: 3}
+    - _Noise_Texture:
+        m_Texture: {fileID: 2800000, guid: f52ba8adbab24ba4cbdee7ae136dc36c, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - unity_Lightmaps:
@@ -59,23 +59,34 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
+    - _Color_Gradient_Intensity: 4.43
+    - _Color_Gradient_Power: 5
+    - _Color_Gradient_Rotation: 0
+    - _Color_Gradient_Vel: 0.1
+    - _Color_Intensity_Leaf: 2.25
+    - _Hue: 0.12
+    - _Hue_Shift: 0
+    - _Line_Slider: 0.007
     - _Noise_Intensity: 0.01
+    - _Opacity_Post_Math: 0.121
     - _QueueControl: 0
     - _QueueOffset: 0
     - _Rot_X_Offset: 0
-    - _Rot_X_Sine_Intensity: 0.025
+    - _Rot_X_Sine_Intensity: 0.01
     - _Rot_X_Sine_Time_Mult: 2
     - _Rot_Y_Offset: 0
-    - _Rot_Y_Sine_Intensity: 0.04
-    - _Rot_Y_Sine_Time_Mult: 1.5
+    - _Rot_Y_Sine_Intensity: 0.05
+    - _Rot_Y_Sine_Time_Mult: 1
     - _Rot_Z_Offset: 0
-    - _Rot_Z_Sine_Intensity: 0.03
-    - _Rot_Z_Sine_Time_Mult: 2.5
+    - _Rot_Z_Sine_Intensity: 0.02
+    - _Rot_Z_Sine_Time_Mult: 1.5
+    - _Tiling_Color_Gradient: 1
     - _X_Sine_Intensity: 0.015
     - _X_Sine_Time_Mult: 0.5
     - _Z_Cos_Intensity: 0.015
     - _Z_Cos_Time_Mult: 1
     m_Colors:
+    - _Color_Leaf_Gradient: {r: 0.9681534, g: 1, b: 0, a: 0}
     - _Noise_Tiling: {r: 0.1, g: 0.1, b: 0, a: 0}
     - _Noise_Vel: {r: 0.1, g: 0.1, b: 0, a: 0}
   m_BuildTextureStacks: []
