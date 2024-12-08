@@ -40,23 +40,24 @@ Material:
     m_Floats:
     - _Exterior_Rail_Radius: 0.959
     - _Exterior_Rail_Subtract_Radius: 0.95
+    - _Hue_Shift_Time_Mult: 0.2
     - _Interior_Rail_Radius: 0.873
     - _Interior_Rail_Subtract_Radius: 0.864
     - _Main_Rail_Radius: 0.963
     - _Main_Rail_Subtract_Radius: 0.859
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _Rotation_Offset: 3.06
+    - _Rotation_Offset: 3.14
     - _Rotation_Time_Mult: 0.3
     - _Sine_Emissive_Rails_Disp: 0
-    - _Sine_Emissive_Rails_Intensity: 3
+    - _Sine_Emissive_Rails_Intensity: 0
     - _Sine_Emissive_Rails_Time_Mult: 3.14
     - _Smooth_Step_Value: 0.39
     - _Step_Smooth_Step: 0
     - _Step_Value: 0.26
     m_Colors:
     - _Main_Rails_Base_Color: {r: 1, g: 1, b: 1, a: 0}
-    - _Rails_Base_Color: {r: 0.6933962, g: 1, b: 0.99126256, a: 0}
+    - _Rails_Base_Color: {r: 0, g: 1, b: 0.0022239685, a: 0}
   m_BuildTextureStacks: []
 --- !u!114 &1472470679829499389
 MonoBehaviour:
