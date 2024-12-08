@@ -248,6 +248,12 @@
             "m_Id": "dd49fcddfb25429688fc264233ef17c5"
         },
         {
+            "m_Id": "6b393a400ff047618aba6f644a7c73b3"
+        },
+        {
+            "m_Id": "2c3f37a875524d1b94b474eb7806ad64"
+        },
+        {
             "m_Id": "312fafb486f8486caf9ecb66aed5e18a"
         }
     ],
@@ -265,17 +271,42 @@
         "35560c0f-ab54-434c-a2c6-c6b76d6b5f11",
         "27466665-486c-47a0-99e0-1470da07456d",
         "9955442c-6b91-413e-81a9-6fe7c23c6df1",
-        "f1f4dafc-37c9-46f6-b551-0fcf88fa8874"
+        "f1f4dafc-37c9-46f6-b551-0fcf88fa8874",
+        "11bc50d7-6cc8-4e79-a6c3-380c3af6f860",
+        "97949b68-99ba-48af-8ed9-eb3df2dd8515"
     ],
     "m_PropertyIds": [
         -873869897,
         -796718444,
         2109196618,
         -831931650,
-        210060808
+        210060808,
+        855968131,
+        -145422674
     ],
     "m_Dropdowns": [],
     "m_DropdownSelectedEntries": []
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.Vector2MaterialSlot",
+    "m_ObjectId": "2c3f37a875524d1b94b474eb7806ad64",
+    "m_Id": -145422674,
+    "m_DisplayName": "Circle Tiling",
+    "m_SlotType": 0,
+    "m_Hidden": false,
+    "m_ShaderOutputName": "_Circle_Tiling",
+    "m_StageCapability": 3,
+    "m_Value": {
+        "x": 1.0,
+        "y": 1.0
+    },
+    "m_DefaultValue": {
+        "x": 0.0,
+        "y": 0.0
+    },
+    "m_Labels": []
 }
 
 {
@@ -299,9 +330,9 @@
     "hlslDeclarationOverride": 0,
     "m_Hidden": false,
     "m_Value": {
-        "r": 0.9176470637321472,
-        "g": 0.4745098054409027,
-        "b": 0.06666667014360428,
+        "r": 1.0,
+        "g": 1.0,
+        "b": 1.0,
         "a": 1.0
     },
     "isMainColor": false,
@@ -382,6 +413,27 @@
         "m_SerializableColors": []
     },
     "m_SerializedDescriptor": "SurfaceDescription.BaseColor"
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.Vector2MaterialSlot",
+    "m_ObjectId": "6b393a400ff047618aba6f644a7c73b3",
+    "m_Id": 855968131,
+    "m_DisplayName": "Circle Displacement",
+    "m_SlotType": 0,
+    "m_Hidden": false,
+    "m_ShaderOutputName": "_Circle_Displacement",
+    "m_StageCapability": 3,
+    "m_Value": {
+        "x": -0.5,
+        "y": -0.5
+    },
+    "m_DefaultValue": {
+        "x": 0.0,
+        "y": 0.0
+    },
+    "m_Labels": []
 }
 
 {
