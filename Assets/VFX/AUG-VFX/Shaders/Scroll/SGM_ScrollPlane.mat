@@ -24,12 +24,20 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
-    - _SampleTexture2D_30b03e9bd5d544a89401d9f7a0a67961_Texture_1_Texture2D:
-        m_Texture: {fileID: 2800000, guid: 684c780f16efcda46b419b6468c38c19, type: 3}
+    - _Distortion_Texture_01:
+        m_Texture: {fileID: 2800000, guid: 88bab18aa7ccae0418b4cdb82c001388, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - _SampleTexture2D_dbe67ef77c034e96a1b3636d06611a02_Texture_1_Texture2D:
-        m_Texture: {fileID: 2800000, guid: c58fe105a12ea3c4981542ed52e28580, type: 3}
+    - _Distortion_Texture_02:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Noise_Texture:
+        m_Texture: {fileID: 2800000, guid: 3a80bf7fe2067b0498470a148ca8477c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Texture:
+        m_Texture: {fileID: 2800000, guid: dc26a6493d9e51a46bacb2ee5d70f673, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - unity_Lightmaps:
@@ -46,16 +54,33 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
+    - _Horizontal_Gradient_Mult: 15
+    - _Horizontal_Gradient_Power: 1
+    - _Inner_Cicle_Smooth: 0.75
+    - _Inner_Circle_Size: 0.35
+    - _Jeroglific_Inner_Circle_Size: 0.35
+    - _Jeroglific_Inner_Circle_Smooth: 0.75
+    - _Jeroglific_Opacity: 1
+    - _Noise_Inner_Circle_Size: 0.36
+    - _Noise_Inner_Circle_Smooth: 0.75
+    - _Noise_Opacity: 0
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _m: 54.5
-    - _m_h: 15
-    - _m_v: 1000
-    - _p: 1.95
-    - _p_h: 1
-    - _p_v: 4.3
+    - _Texture_Change_Sine_Intensity: 5
+    - _Texture_Change_Sine_Time_Mult: 0.6
+    - _Vertical_Gradient_Mult: 1000
+    - _Vertical_Gradient_Power: 5
     m_Colors:
-    - _Vector2: {r: 10, g: 10, b: 0, a: 0}
+    - _Color: {r: 0, g: 0, b: 0, a: 0}
+    - _Distortion_Intensity: {r: 0, g: 0, b: 0, a: 0}
+    - _Distortion_Tiling_01: {r: 1, g: 3, b: 0, a: 0}
+    - _Distortion_Tiling_02: {r: 1, g: 1, b: 0, a: 0}
+    - _Distortion_Velocity_01: {r: 0, g: 0, b: 0, a: 0}
+    - _Distortion_Velocity_02: {r: 0, g: 0, b: 0, a: 0}
+    - _Noise_Texture_Tiling: {r: 1, g: 10, b: 0, a: 0}
+    - _Noise_Texture_Velocity: {r: -0.1, g: -0.03, b: 0, a: 0}
+    - _Texture_Tiling: {r: 9, g: 9, b: 0, a: 0}
+    - _Texture_Velocity: {r: -0.2, g: 0, b: 0, a: 0}
   m_BuildTextureStacks: []
 --- !u!114 &2547979644583965837
 MonoBehaviour:
