@@ -1,0 +1,97 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: SGM_MagicBeetle
+  m_Shader: {fileID: -6465566751694194690, guid: fd133f696fb51994aa45ee93b836fba2,
+    type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _SampleTexture2D_2970db79b9b04d2d80aba2b4613bfb37_Texture_1_Texture2D:
+        m_Texture: {fileID: 2800000, guid: 3a15cc82b40fe174781e4d20021a2f66, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_b6b1fc94126f4fb687fe4076be54cdcb_Texture_1_Texture2D:
+        m_Texture: {fileID: 2800000, guid: db9b5bb06736993469fb4acf8d6fe843, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_d328d468629e429da2b06a8a3d190b3d_Texture_1_Texture2D:
+        m_Texture: {fileID: 2800000, guid: 44ebd424eed3be044a02e9578a7e45e2, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Texture2DAsset_42e44a6e22a642d18733e78a96d421c8_Out_0_Texture2D:
+        m_Texture: {fileID: 2800000, guid: f52ba8adbab24ba4cbdee7ae136dc36c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Texture2DAsset_b15c7c0ea9f84414ba4c9b446fb917b8_Out_0_Texture2D:
+        m_Texture: {fileID: 2800000, guid: 2617bd3af4461f14c97e39be60c57980, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Texture2DAsset_b675c2e97ca34ba68904967f78e04043_Out_0_Texture2D:
+        m_Texture: {fileID: 2800000, guid: 2617bd3af4461f14c97e39be60c57980, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _Beetle_Base_Intensity: 0.039
+    - _Fresnel_Intensity: 10
+    - _Fresnel_Power: 15
+    - _General_Emissive_Intensity: 0.01
+    - _General_Emissive_Time_Mult: 3
+    - _Lower_Wings_Intensity: 0.059
+    - _QueueControl: 0
+    - _QueueOffset: 0
+    - _Upper_Wings_Intensity: 0.03
+    m_Colors:
+    - _Beetle_Base_Noise_Tiling: {r: 0.52, g: 1, b: 0, a: 0}
+    - _Beetle_Base_Noise_Velocity: {r: 0.05, g: 0, b: 0, a: 0}
+    - _Emissive_Noises_Color: {r: 0, g: 1, b: 0.8721261, a: 0}
+    - _Fresnel_Color: {r: 1, g: 0.7356628, b: 0, a: 0}
+    - _General_Emissive_Color: {r: 0, g: 1, b: 0.5699998, a: 0}
+    - _Lower_Wings_Noise_Tiling: {r: 1, g: 20, b: 0, a: 0}
+    - _Lower_Wings_Noise_Velocity: {r: 0.4, g: 0, b: 0, a: 0}
+    - _Upper_Wings_Noise_Tiling: {r: 0.58, g: 6, b: 0, a: 0}
+    - _Upper_Wings_Noise_Velocity: {r: 0.1, g: 0.1, b: 0, a: 0}
+  m_BuildTextureStacks: []
+--- !u!114 &1392979089197515042
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 7

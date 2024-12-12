@@ -60,17 +60,17 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.3.44f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Imported\Hovl Studio\HSFiles\Scripts\For demo scenes\HS_CameraHolder.cs" />
     <Compile Include="Assets\VFX\Misc\Scripts\S_RepositionToVFXOrigin.cs" />
     <Compile Include="Assets\VFX\Misc\Scripts\S_VFXAutoRestart.cs" />
     <Compile Include="Assets\VFX\Misc\Scripts\S_Rotator.cs" />
-    <Compile Include="Assets\VFX\AUG-VFX\Imported\Hovl Studio\HSFiles\Scripts\For demo scenes\HS_CameraHolder.cs" />
     <Compile Include="Assets\Legacy\TutorialInfo\Scripts\Readme.cs" />
     <Compile Include="Assets\VFX\Misc\Scripts\S_LockTransform.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Assets\VFX\AUG-VFX\Imported\Hovl Studio\HSFiles\Shaders\Blend_CenterGlow.shader" />
-    <None Include="Assets\VFX\AUG-VFX\Imported\Hovl Studio\Render Pipelines support\Documentation.txt" />
-    <None Include="Assets\VFX\AUG-VFX\Imported\Hovl Studio\HSFiles\Shaders\SoftNoise.shader" />
+    <None Include="Assets\Imported\Hovl Studio\HSFiles\Shaders\Blend_CenterGlow.shader" />
+    <None Include="Assets\Imported\Hovl Studio\Render Pipelines support\Documentation.txt" />
+    <None Include="Assets\Imported\Hovl Studio\HSFiles\Shaders\SoftNoise.shader" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
