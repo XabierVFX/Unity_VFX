@@ -1,0 +1,74 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: SGM_BallSupportChocolateAura
+  m_Shader: {fileID: -6465566751694194690, guid: e5b3cace4047f774aa356a7f4b6774eb,
+    type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _Texture2DAsset_12f4e11eea3d4be3b012382fb6b2eb39_Out_0_Texture2D:
+        m_Texture: {fileID: 2800000, guid: f52ba8adbab24ba4cbdee7ae136dc36c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Texture2DAsset_466063f80e8e4209af7c4e36a2f53d8d_Out_0_Texture2D:
+        m_Texture: {fileID: 2800000, guid: d6ddfd9c0a702df45977e3636dce2ae0, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _Main_Circle_Size: 0.935
+    - _Noise_01_Opacity: 1
+    - _Noise_02_Opacity: 0.235
+    - _QueueControl: 0
+    - _QueueOffset: 0
+    m_Colors:
+    - _Color_Black: {r: 0.66, g: 0.14270271, b: 0, a: 0}
+    - _Color_White: {r: 0.257, g: 0.060470592, b: 0, a: 0}
+    - _Noise_01_Tiling: {r: 2, g: 1, b: 0, a: 0}
+    - _Noise_02_Tiling: {r: 0.67, g: 1, b: 0, a: 0}
+    - _Vel_01: {r: 0.3, g: 0, b: 0, a: 0}
+    - _Vel_02: {r: 0.2, g: 0, b: 0, a: 0}
+  m_BuildTextureStacks: []
+--- !u!114 &4803532584600613388
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 7

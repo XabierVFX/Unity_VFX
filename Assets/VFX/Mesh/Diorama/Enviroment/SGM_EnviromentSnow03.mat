@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8902758693932164881
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 7
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: SGM_EnviromentSnow03
+  m_Shader: {fileID: -6465566751694194690, guid: 24e6dbf8c40a2ff42996a461d9dc05f4,
+    type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _Circle_01_Opacity: 0.333
+    - _Circle_01_Size: 1
+    - _Circle_01_Smooth: 0.63
+    - _Circle_02_Opacity: 0.118
+    - _Circle_02_Size: 0.76
+    - _Circle_02_Smooth: 0.52
+    - _Circle_03_Opacity: 1
+    - _Circle_03_Size: 0.62
+    - _Circle_03_Smooth: 1.82
+    - _General_Opacity: 1
+    - _QueueControl: 0
+    - _QueueOffset: 0
+    m_Colors:
+    - _Circle_01_Displacement: {r: -0.49, g: -0.47, b: 0, a: 0}
+    - _Circle_01_Tiling: {r: 1.44, g: 1.21, b: 0, a: 0}
+    - _Circle_02_Displacement: {r: -0.32, g: -0.33, b: 0, a: 0}
+    - _Circle_02_Tiling: {r: 1.33, g: 1.24, b: 0, a: 0}
+    - _Circle_03_Displacement: {r: -0.66, g: -0.64, b: 0, a: 0}
+    - _Circle_03_Tiling: {r: 1.09, g: 0.9, b: 0, a: 0}
+    - _Color_Black: {r: 0.8443396, g: 1, b: 0.99208504, a: 0}
+    - _Color_White: {r: 1, g: 1, b: 1, a: 0}
+  m_BuildTextureStacks: []
