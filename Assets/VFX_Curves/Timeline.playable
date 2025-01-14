@@ -121,11 +121,11 @@ MonoBehaviour:
     time: 0
     timeSpace: 0
     name:
-      m_Name: SpawnVFX
+      m_Name: SpawnStartCurves
     eventAttributes:
       content: []
   - editorColor: {r: 0.20392157, g: 0.53333336, b: 0.654902, a: 1}
-    time: 4
+    time: 3
     timeSpace: 0
     name:
       m_Name: EndVFX
@@ -143,6 +143,13 @@ MonoBehaviour:
     timeSpace: 0
     name:
       m_Name: FinalBurstStop
+    eventAttributes:
+      content: []
+  - editorColor: {r: 0.44705883, g: 0.40784314, b: 0.047058824, a: 1}
+    time: 0.3
+    timeSpace: 0
+    name:
+      m_Name: SpawnSphere
     eventAttributes:
       content: []
   references:
