@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-3818988551988199763
+--- !u!114 &-1353539042610971148
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 030f85c3f73729f4f976f66ffb23b875, type: 3}
-  m_Name: AnimationPlayableAsset
+  m_Name: AnimationPlayableAsset(Clone)(Clone)
   m_EditorClassIdentifier: 
   m_Clip: {fileID: 7400000, guid: 903026715ef15114e9ee6f248b0bdc02, type: 2}
   m_Position: {x: 0, y: 0, z: 0}
@@ -32,18 +32,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bfda56da833e2384a9677cd3c976a436, type: 3}
-  m_Name: CharacterAttackTimeline
+  m_Name: VFX_Joint01Timeline
   m_EditorClassIdentifier: 
   m_Version: 0
   m_Tracks:
-  - {fileID: 2199716295339423846}
+  - {fileID: 728463060941874528}
   m_FixedDuration: 0
   m_EditorSettings:
     m_Framerate: 60
     m_ScenePreview: 1
   m_DurationMode: 0
   m_MarkerTrack: {fileID: 0}
---- !u!114 &2199716295339423846
+--- !u!114 &728463060941874528
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -67,14 +67,14 @@ MonoBehaviour:
   - m_Version: 1
     m_Start: 0
     m_ClipIn: 0
-    m_Asset: {fileID: -3818988551988199763}
+    m_Asset: {fileID: -1353539042610971148}
     m_Duration: 2.3333333333333335
     m_TimeScale: 1
-    m_ParentTrack: {fileID: 2199716295339423846}
+    m_ParentTrack: {fileID: 728463060941874528}
     m_EaseInDuration: 0
     m_EaseOutDuration: 0
     m_BlendInDuration: -1
-    m_BlendOutDuration: 0.40000000000000013
+    m_BlendOutDuration: 0.3999999999999959
     m_MixInCurve:
       serializedVersion: 2
       m_Curve:
@@ -116,15 +116,15 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: A_Idle
   - m_Version: 1
-    m_Start: 1.9333333333333333
+    m_Start: 1.9333333333333376
     m_ClipIn: 0
-    m_Asset: {fileID: 3197036952639091851}
+    m_Asset: {fileID: 1825694495517908030}
     m_Duration: 2.8888888888888893
     m_TimeScale: 1.2
-    m_ParentTrack: {fileID: 2199716295339423846}
+    m_ParentTrack: {fileID: 728463060941874528}
     m_EaseInDuration: 0
     m_EaseOutDuration: 0
-    m_BlendInDuration: 0.40000000000000013
+    m_BlendInDuration: 0.3999999999999959
     m_BlendOutDuration: -1
     m_MixInCurve:
       serializedVersion: 2
@@ -204,7 +204,7 @@ MonoBehaviour:
   m_OpenClipOffsetRotation: {x: 0, y: 0, z: 0, w: 1}
   m_Rotation: {x: 0, y: 0, z: 0, w: 1}
   m_ApplyOffsets: 0
---- !u!114 &3197036952639091851
+--- !u!114 &1825694495517908030
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -214,7 +214,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 030f85c3f73729f4f976f66ffb23b875, type: 3}
-  m_Name: AnimationPlayableAsset
+  m_Name: AnimationPlayableAsset(Clone)(Clone)
   m_EditorClassIdentifier: 
   m_Clip: {fileID: 7400000, guid: 36447043c1b04a34eb2bddc24f250346, type: 2}
   m_Position: {x: 0, y: 0, z: 0}

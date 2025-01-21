@@ -17,6 +17,7 @@ public class S_VFXCharActivator : MonoBehaviour
     // Métodos específicos
     public void PlayVFX0() => PlayVFX(0);
     public void StopVFX0() => StopVFX(0);
+
     public void PlayVFX1() => PlayVFX(1);
     public void StopVFX1() => StopVFX(1);
     public void PlayVFX2() => PlayVFX(2);
