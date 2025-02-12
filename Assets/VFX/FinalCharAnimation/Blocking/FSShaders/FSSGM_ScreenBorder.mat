@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: FSSGM_BlackWhite
-  m_Shader: {fileID: -6465566751694194690, guid: 8b4ffd86659544e45a9a38f4afb5a777,
+  m_Name: FSSGM_ScreenBorder
+  m_Shader: {fileID: -6465566751694194690, guid: 4f7f59c0cd620974eaa6c86d48d559d1,
     type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
@@ -38,8 +38,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _Smooth: 0
-    - _Thres: 0.072
-    - _Threshold: 0.123
+    - _ColorScreen: 0
+    - _OpacityScreen: 0
     m_Colors: []
   m_BuildTextureStacks: []
