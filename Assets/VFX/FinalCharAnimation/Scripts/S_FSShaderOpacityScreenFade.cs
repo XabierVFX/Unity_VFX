@@ -1,7 +1,7 @@
 using UnityEngine;
 
 [ExecuteAlways]
-public class S_FSShaderOpacityScreenFade : MonoBehaviour
+public class S_FSShaderParameterController : MonoBehaviour
 {
     [Header("Material Settings")]
     public Material material; // Asigna aquí tu Material del Shader
