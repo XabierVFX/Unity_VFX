@@ -61,6 +61,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Legacy\TutorialInfo\Scripts\Editor\ReadmeEditor.cs" />
+    <Compile Include="Assets\Imported\PathCreator\Examples\Scripts\Editor\PathSceneToolEditor.cs" />
     <Compile Include="Assets\VFX\Misc\Scripts\Editor\S_EditorRepaint.cs" />
     <Compile Include="Assets\VFX\Misc\Scripts\Editor\S_TextureExposerEditor.cs" />
     <Compile Include="Assets\Imported\Hovl Studio\Render Pipelines support\Editor\ShaderChanger.cs" />
@@ -1135,6 +1136,14 @@
     <ProjectReference Include="Assembly-CSharp.csproj">
       <Project>{2B90D272-AE90-A140-3823-7BBF6EF32752}</Project>
       <Name>Assembly-CSharp</Name>
+    </ProjectReference>
+    <ProjectReference Include="PathCreator.csproj">
+      <Project>{E5E26E1A-AF9B-7353-2652-E516EC8A308F}</Project>
+      <Name>PathCreator</Name>
+    </ProjectReference>
+    <ProjectReference Include="PathCreatorEditor.csproj">
+      <Project>{E2671518-E2F6-9C8D-84B4-C1B2368E42A4}</Project>
+      <Name>PathCreatorEditor</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
