@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: FSSGM_Water
+  m_Shader: {fileID: -6465566751694194690, guid: 5c07055619322f04e89c055b6ddd34b9,
+    type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _SampleTexture2D_16a7f9c114d0417e8ed5a8b2b01ae9cc_Texture_1_Texture2D:
+        m_Texture: {fileID: 2800000, guid: ed2f798e57aaefd418ea2cebdffe31e0, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_40ebf867fe0341a2a8dfeadbb8cb7e4a_Texture_1_Texture2D:
+        m_Texture: {fileID: 2800000, guid: be46cdadbedf86a42ab7e974f7f9feb1, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_ab3ac1402f9d45479bacffa3f5efe01c_Texture_1_Texture2D:
+        m_Texture: {fileID: 2800000, guid: 1ee353c4c7ce4c74092234fef5c4ef8b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_ee257594fb4f4f068dbc3664c35653f6_Texture_1_Texture2D:
+        m_Texture: {fileID: 2800000, guid: d2009407d043c0144a70ada176c5bf3c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _Add: 0
+    - _Disp: 0
+    - _Mult: 1
+    m_Colors: []
+  m_BuildTextureStacks: []
